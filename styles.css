@@ -21,10 +21,6 @@ body{
     color: #fff;
 }
 
-img {
-    max-width: 100%;
-}
-
 #image {
     display: block;
     margin: 10px auto;
@@ -79,10 +75,11 @@ p {
 }
 
 .btn {
-    padding: .5em 1.2em;
+    padding: .5em 1.7em;
     border: none;
     cursor: pointer;
     margin-bottom: 1em;
+    margin-top: 1em;
     background-color: var(--emphasis--color);
     
 
@@ -119,7 +116,7 @@ p {
 
 @media (min-width:400px){
     img {
-        max-width: 70%;
+        max-width: 50%;
     }
     .bg-dark {
         margin: 1em;
@@ -135,6 +132,7 @@ p {
 
     .btn {
         font-size: 1.3rem;
+        padding: .9em 2.2em;
     }
 
     h3, #name, #height, #born, #homeworld {
@@ -185,9 +183,9 @@ p {
     }
 
     .btn {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+        padding: .8em 2.7em;
     }
-
     h3 {
         width: 32%;
         max-width: 12.5em;
@@ -213,5 +211,9 @@ p {
         color: #837109;
         text-shadow: 4px 2px 1px #ffdf27;
         margin-bottom: 1em;
+    }
+
+    img {
+        width: 20%;
     }
 }
